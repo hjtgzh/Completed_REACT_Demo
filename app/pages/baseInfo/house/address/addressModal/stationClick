@@ -1,0 +1,59 @@
+import React, { Component } from 'react'
+import { Button, Form, Input, Select, Row, Col } from 'antd'
+const createForm = Form.create
+const FormItem = Form.Item
+
+
+@Form.create({
+  onFieldsChange(props, items) {
+    console.log(props)
+    console.log(items)
+    // props.cacheSearch(items);
+  },
+})
+
+export default class Index extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      loading: false,
+    }
+    this.handleSubmit = this.handleSubmit.bind(this)
+  }
+  handleSubmit(e) {
+    e.preventDefault();
+    this.props.form.validateFields((errors, values) => {
+      if (!!errors) {
+        console.log('Errors in form!!!');
+        return;
+      }
+      this.setState({loading: true})
+      setTimeout(() => {
+        this.setState({loading: false})
+        this.props.handleOk(false)
+      }, 3000)
+
+      console.log('Submit!!!');
+      console.log(values);
+    });
+  }
+
+
+  render() {
+    const { getFieldProps } = this.props.form;
+    const roleseqProps = getFieldProps('roleseq')
+    const formItemLayout = {
+      labelCol: {span: 5},
+      wrapperCol: {span: 17},
+    }
+    return (
+      <div className="modalcontent">
+        <Form horizontal>
+          <FormItem {...formItemLayout} label="道路名称" >
+            <Input  type='text' />
+          </FormItem>
+        </Form>
+      </div>
+    )
+  }
+}

@@ -1,0 +1,10 @@
+.location-title-wrap{
+    position: absolute;
+    z-index: 15;
+    top: 10px;
+    font-weight: bold;
+    left: 10px;
+}
+.location-line-height .ant-form-item{
+    margin-bottom: 10px;
+}

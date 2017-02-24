@@ -1,0 +1,80 @@
+.form-main-trf .ant-col-24{
+  border: 1px solid #d9d9d9;
+  border-bottom: 0;
+  background: #F7F9FD;
+  padding: 6px 0 6px 10px;
+  font-weight: bold;
+}
+.form-main-trf .ant-select-selection,
+.form-main-trf .ant-input{
+	border-radius: 0;
+}
+.form-main-trf .ant-col-12 .ant-col-6{
+	background: #F7F9FD;
+	border: 1px solid #d9d9d9;
+	border-bottom: 1px solid #F7F9FD;
+	border-right: 0;
+	padding: 6px 0;
+}
+.form-main-trf .ant-col-12:nth-child(odd) .ant-col-6{
+	border-left: 0;
+}
+.form-main-trf .ant-col-12:nth-child(27) .ant-col-6,
+.form-main-trf .ant-col-12:nth-child(26) .ant-col-6{
+	border-bottom: 1px solid #d9d9d9;
+}
+.form-main-trf .ant-select-selection,
+.form-main-trf .ant-input{
+	border-bottom: 1px solid #fff;
+}
+.form-main-trf .ant-select-selection:hover,
+.form-main-trf .ant-input:hover{
+	border-color: #40a5ed;
+}
+.form-main-trf .ant-select-selection:active,
+.form-main-trf .ant-input:active{
+	border-color: #40a5ed;
+}
+.form-main-trf .ant-select-selection:focus,
+.form-main-trf .ant-input:focus{
+	border-color: #40a5ed;
+}
+
+
+.form-main-trf .ant-col-12:nth-child(27) .ant-select-selection,
+.form-main-trf .ant-col-12:nth-child(26) .ant-select-selection{
+	border-bottom: 1px solid #d9d9d9;
+}
+.form-main-trf .ant-col-12:nth-child(27) .ant-select-selection:hover,
+.form-main-trf .ant-col-12:nth-child(26) .ant-select-selection:hover{
+	border-color: #40a5ed;
+}
+.form-main-trf .ant-col-12:nth-child(27) .ant-select-selection:active,
+.form-main-trf .ant-col-12:nth-child(26) .ant-select-selection:active{
+	border-color: #40a5ed;
+}
+.form-main-trf .ant-col-12:nth-child(27) .ant-select-selection:focus,
+.form-main-trf .ant-col-12:nth-child(26) .ant-select-selection:focus{
+	border-color: #40a5ed;
+}
+
+.form-main-trf .ant-form-item{
+	margin-bottom: 0;
+}
+.form-main-trf > .ant-row{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.button-hidden{
+	display:none;
+}
+.importantField label{
+	color:red;
+}
+.wpmctitle-ytt{
+	display: inline-block;
+	max-width:140px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

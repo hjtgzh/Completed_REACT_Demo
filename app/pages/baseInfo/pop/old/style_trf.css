@@ -1,0 +1,83 @@
+
+/* 人员详情 */
+/*.ant-form-item{
+    margin-bottom: 10px;
+}*/
+.de_top{
+    margin-bottom: 20px;
+}
+/*.imgs{
+    width: 138px;
+    height: 181px;
+    border: 1px solid #d9d9d9;
+     float: left;
+    margin-right: 20px; 
+}*/
+/*.ant-col-18{
+    background: #fff;
+}*/
+.infTable .ant-form-item{
+    margin-bottom: 0;
+}
+.infTable .ant-form-item .ant-col-5{
+    text-align: center;
+}
+.infTable .ant-row .ant-col-12 {
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+}
+.infTable .ant-row .ant-col-12:nth-child(15),
+.infTable .ant-row .ant-col-12:nth-child(16){
+    border-bottom: 1px solid #d9d9d9;
+}
+.infTable .ant-row .ant-col-12:nth-child(2n-1){
+    border-right: 0;
+}
+.infTable .ant-row .ant-col-12 .ant-row .ant-col-19{
+    border-left: 1px solid #d9d9d9;
+    background: #FFF;
+    padding-left: 10px;
+}
+.infTable .ant-form-item-label label:after{
+    content: '';
+}
+.infTable .ant-col-17 span{
+    margin: 0 2px 0 8px;
+}
+.menu_tab .ant-col-24{
+    margin-bottom: 0;
+}
+span.ant-calendar-picker{
+    width: 100% !important;
+}
+.menu_tab .ant-col-24{
+    background: #FFF;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.menu_tab .ant-col-24 .ant-form-item{
+    margin-bottom: 0;
+}
+.menu_tab .ant-col-24 .ant-form-item .ant-form-item-label{
+    text-align: left
+}
+.menu_tab .ant-col-24 .ant-form-item .ant-form-item-label label{
+    color: #51ace1;
+    font-weight: 700;
+}
+.menu_tab .ant-col-24 .ant-col-23 span{
+    font-weight: 700;
+    color: #000;
+}
+/*.ant-modal-content .ant-btn-lg{
+    width: 100%;
+}
+.ant-modal-content .ant-col-offset-10{
+    margin-left: 0;
+}
+.ant-modal-content .ant-col-12{
+    width: 100%;
+}
+.ant-modal-footer .ant-btn-ghost{
+    display: none;
+}*/

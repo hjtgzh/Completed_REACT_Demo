@@ -1,0 +1,32 @@
+.punishDetails-tj table{
+	border-collapse: collapse;
+    border: solid #d6d6d6 1px;
+    width: 100%;
+}
+
+.punishDetails-tj table td{
+    height: 30px;
+    vertical-align: middle;
+    color: #53585F;
+    padding: 0 3px;
+    word-wrap: break-word;
+    word-break: break-word;
+    border: solid #DDDFDF 1px;
+    text-align: left;
+}
+
+.punishDetails-tj table td:nth-child(odd) {
+    background: #f7f9fd;
+    width: 10%;
+}
+
+.punishDetails-tj table td input{
+    line-height: normal;
+    background: #ffffff;
+    padding: 3px;
+    outline: none;
+    vertical-align: middle;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}

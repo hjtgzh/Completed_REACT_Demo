@@ -1,0 +1,26 @@
+/*
+ *Create By 韩卿
+ */
+
+.gform{ margin:10px 0; background-color: #f5f5f5; padding:10px 10px 1px 10px;box-sizing: content-box;}
+.totle{ font-size: 14px; display: inline-block; min-width: 52px;}
+.gform .selected-list{display: inline-block; margin:0 0 0 27px; vertical-align: inherit;}
+.gform .selected-list .selected-btn{ margin:0 10px 10px 0; }
+.gform-head{ }
+.search-box{ display: inline-block; margin-bottom: 5px;}
+.gform-head .ant-input-wrapper .search-input{ width: auto; margin:0 10px 0 6px; height: 28px; }
+.group{ margin: 5px 0; height: auto;  position: relative;overflow: hidden;}
+
+.smallgroup{ height: 22px; overflow: hidden; }
+.list-wrap .item{ margin:0 20px 0 0;  cursor: pointer;display:inline-block;height: 22px;line-height: 22px;}
+.list-wrap .item .name{  color: #478ed0; }
+.check-wrap{ margin: 0 -5px;padding:10px 5px;min-height: 40px; background-color: #fff; background-color: #ddd;}
+.check-wrap .checks{}
+.check-wrap .checkbox{ vertical-align: middle; margin-right: 0;margin-top:-2px;}
+.check-wrap .check-label{margin-right: 10px; white-space: nowrap; cursor: pointer;display: inline-block;}
+.check-wrap .check-label span{vertical-align: middle;}
+.check-wrap .btns{ text-align: center; }
+.check-wrap button{ margin-right: 10px; }
+.rowSlide{ margin:0 0 0 20px; cursor: pointer;  font-size: 14px;float: right;}
+
+.search-btn{margin-right:5px;}

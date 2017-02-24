@@ -1,0 +1,52 @@
+.inputClose-jxy {
+    position: absolute;
+    right: -30px;
+    top: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 2;
+    color: #fff;
+    padding: 0;
+}
+
+.inputClose-hidden-jxy {
+    display: none;
+}
+
+.inputClose-jxy.anticon-close:before{
+    content: "\E633";
+    background: #f18888;
+    color: #fff;
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.inputClose-jxy.anticon-close:hover:before{
+    background: #f16c6c;
+}
+.inputClose-jxy.anticon-close:hover:after{
+    content: "\5220\9664";
+    color: #f18888;
+    position: absolute;
+    right: -30px;
+    font-size: 12px;
+    top: 2px;
+}
+
+.address-icon-style{
+    font-size: 18px;
+    position: absolute;
+    right: -30px;
+    top: 6px;
+    cursor: pointer;
+    color: #f18888;
+}
+
+.saveScoreA{
+    float: left;
+    margin-top: 6px;
+    color: #108ee9;
+}
+.saveScoreA:hover{
+    color: #1476e9;
+ }

@@ -1,0 +1,269 @@
+
+.rent-table-cpp {
+    margin-top: 50px;
+}
+.rent-table-cpp {
+    margin-top: 100px;
+
+}
+.logistics-table-cpp {
+    margin-top: 100px;
+}
+.hotal-table-cpp table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d6d6d6;
+}
+.hotal-table-cpp thead tr th {
+    font-weight: bold;
+    color: #333;
+    padding: 0 3px;
+    background: #f8f9fd;
+    text-align: center;
+    height: 30px;
+}
+.hotal-table-cpp table td {
+    /*border: 1px solid #ddd;*/
+    border: dashed #DDDFDF 1px;
+    height: 30px;
+    vertical-align: middle;
+    color: #53585F;
+    padding: 0 3px;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.hotal-table-cpp table td input {
+    border: none;
+}
+.footer-cpp {
+    margin-top: 50px;
+    float: right;
+}
+.footer-cpp button {
+    margin: 5px 5px;
+}
+.content-cpp{
+    margin-top:10px;
+    /*height: 200px;
+    overflow-y: scroll;*/
+
+}
+.content-cpp table tbody{
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+/*-------------- jxy ------------*/
+.group-jxy {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.group-jxy table {
+    border-collapse: collapse;
+    border: solid #d6d6d6 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sideModal-jxy {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    padding: 0;
+}
+
+.sideModal-jxy .ant-modal-content {
+    box-shadow: none;
+}
+
+.group-jxy table tbody tr td {
+    border: dashed #DDDFDF 1px;
+    height: 30px;
+    vertical-align: middle;
+    color: #53585F;
+    padding: 0;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-word;
+    min-width: 90px;
+}
+
+.group-jxy table thead tr th {
+    border-right: solid #d6d6d6 1px;
+    border-bottom: solid #d6d6d6 1px;
+    font-weight: bold;
+    color: #333;
+    padding: 0 3px;
+    background: #f8f9fd;
+    text-align: center;
+    height: 30px;
+}
+
+.group-jxy .ant-select {
+    display: block;
+}
+
+.group-jxy .ant-input,
+.group-jxy .ant-select-selection {
+    border: none;
+}
+
+.group-jxy-footer-div {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+}
+
+.checkboxCode-jxy {
+    width: 100px;
+    display: inline-block;
+}
+
+.checklist-jxy .ant-checkbox-wrapper {
+    display: block;
+    margin: 3px 0;
+}
+
+.footerGroup-jxy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.footerGroup-jxy button {
+    margin-right: 10px;
+}
+
+.maTop-jxy .ant-table-content > div {
+    overflow-y: auto;
+}
+
+/*-------------- /jxy ------------*/
+
+.c-department table {
+    table-layout: fixed;
+}
+
+.c-department table a {
+    color: #51a7fa;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.c-department table th, .c-department table td {
+    text-align: center;
+}
+
+.c-department table td:nth-child(3) {
+    text-align: left;
+}
+
+.c-department .ant-pagination {
+    position: fixed;
+    right: 0;
+    bottom: -16px;
+}
+
+.c-button {
+    overflow: auto;
+    height: 100%;
+    background: #fff;
+}
+
+.c-btns {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.organizationTable table {
+    table-layout: fixed;
+}
+
+.groupContent {
+    height: 100%;
+    overflow: auto;
+}
+
+.groupContent table {
+    table-layout: fixed;
+    width: 99%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border: solid #d6d6d6 1px;
+}
+
+.groupContent table td {
+    color: #53585F;
+    height: 30px;
+    padding: 1px 3px;
+    font-size: 12px;
+    vertical-align: middle;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 1px #d6d6d6 solid;
+}
+
+.groupContent table tr th {
+    padding: 5px 6px;
+    background: #F7F9FD;
+    color: #53585F;
+}
+
+.groupContent .groupBaseInfo table input, .groupContent .groupBaseInfo .ant-select {
+    width: 100%;
+    border: none;
+}
+
+.groupContent .groupBaseInfo table .ant-select-selection {
+    border: none;
+}
+
+.groupContent .groupBaseInfo table tr .groupLabel {
+    background: #F7F9FD;
+    color: #53585F;
+}
+
+.bottomButtom-yu {
+    position: absolute;
+    bottom: 220px;
+    left: 0px;
+}
+
+.bottomButtom-yu button {
+    margin-right: 5px;
+}
+
+.yu-a {
+    margin-right: 5px;
+}
+
+.yu-Btn {
+    margin-top: 95px;
+}
+
+.icon-green-lzr {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #f5f;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 2px;
+}
+
+.unitShow {
+    display: block;
+}
+
+.unitHide {
+    display: none;
+}

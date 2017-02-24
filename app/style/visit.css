@@ -1,0 +1,136 @@
+.visit-content .unite-content{
+	padding-top:10px;
+    background: #f2f3f8;
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-top: 3px;
+}
+
+.visit-content .unite-content .floor{
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+
+}
+
+.visit-content .floor .room-content{
+	margin: 5px;
+    float: left;
+    height: 50px;
+    display:flex;
+    flex:0 0 auto;
+}
+
+.visit-content .floor .room-name{
+	display: inline-block;
+	color: #333;
+    width: 83px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    padding: 0 5px;
+    background: #a6aaa9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.visit-content .floor .room-counts{
+	float: left;
+	color: #333;
+    text-align: right;
+    padding: 5px;
+    width: 180px;
+    background: #FFFFFF;
+    height: 50px;
+}
+
+.visit-content .floor .room-counts em{
+	padding: 2px 5px;
+    display: inline-block;
+    text-align: center;
+	font-size:12px;
+	font-style:normal;
+}
+
+.visit-content .floor .room-counts .imp-count{
+   color:#d21b07;
+}
+
+.visit-content .btns{
+	position:fixed;
+	bottom:8px;
+	width:100%;
+}
+
+.visit-content .btns .btn-left{
+	float:left;
+	margin-left: 15px;
+}
+.floor-ability-button{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.visit-content .list-tabs .ant-tabs-tabpane-active[aria-hidden="false"]{
+    display: flex;
+    flex-direction: column;
+}
+.visit-content .detail-box{
+    position: absolute;
+    top: -23px;
+    right: 5px;
+}
+.visit-content .detail-box .dot-list .dot-a{
+    margin-left:10px;
+    float:left;
+}
+.visit-content .detail-box .dot-list .dot{
+    display:inline-block;
+    height: 10px;
+    width: 16px;
+    border-radius: 16px;
+    background:#a6aaa9;
+}
+
+.visit-content .detail-box .dot-list a{
+    margin-left:3px;
+    cursor:default;
+    color:#333;
+}
+
+.visit-content .zzClass{
+    background:#f5d329 !important;
+}
+
+.visit-content .czClass{
+    background:#70bf40 !important;
+}
+
+.visit-content .qzClass{
+    background:#51a7fa !important;
+}
+
+.visit-content .kzClass{
+    background:#4d504e !important;
+}
+
+.visit-content .dwClass{
+    background:#ec5d57 !important;
+}
+
+.visit-content .dcClass{
+    background:#e8c4c2 !important;
+}
+
+.visit-content .zcClass{
+    background:#7d9e60 !important;
+}
+
+.visit-content .ssClass{
+    background:#b46ae3 !important;
+}

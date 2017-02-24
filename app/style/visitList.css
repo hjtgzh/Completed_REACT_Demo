@@ -1,0 +1,60 @@
+/*
+ *Create By 韩卿
+ */
+
+/* 弹框样式 */
+.sideModal{position:fixed !important;top:0 !important;right:0;width:500px;height:100%;padding:0;}
+.sideModal .ant-modal-content{height:100%;border-radius:0;}
+.sideModal .ant-modal-header{position: absolute;top: 0; width: 100%;}
+.sideModal .ant-modal-body{height: 100%;padding:66px 16px 69px;}
+.sideModal .ant-modal-footer{position: absolute;bottom: 0; width: 100%;}
+/* 访查人口的搜索条样式 */
+.sideModal .ant-search-input-wrapper{height:32px;}
+.sideModal .ant-search-btn{padding:6px !important;}
+
+/* 访查人员查询模块样式 */
+.visitModal .pic-div {float:left;width:142px;height:174px;border:1px solid #ddd;margin-right:20px;}
+.visitModal .pic-div img{width:100%;max-height:100%;vertical-align:middle;}
+.visitModal table{border-collapse:collapse;}
+.visitModal table td{border:1px solid #ddd;height:32px;}
+.visitModal table td:nth-child(2n+1){height:32px;width:103px;padding:0 0 0 6px;}
+.visitModal table td input{border:0;}
+/* 境外人员查询模块样式 */
+.foreignModal .search-module>div{margin:5px 0px; }
+.foreignModal .search-module>div>label{display:inline-block;width:60px;}
+.foreignModal .search-module button{position: absolute;right: -34px; height: 32px;z-index: 1;}
+.foreignModal .pic-div{float:left;width:142px;height:178px;border:1px solid #ddd;margin-right:20px;}
+.foreignModal .pic-div img{width:100%;max-height:100%;vertical-align:middle;}
+.foreignModal .color-red{color:red;}
+.foreignModal .foreignTable{border-collapse:collapse;width:312px;}
+.foreignModal .foreignTable td{border:1px solid #ddd;text-align: left !important;}
+.foreignModal .foreignTable td:nth-child(2n+1){height:32px;width:103px;padding:0 0 0 6px;}
+.foreignModal .foreignTable input{border:0;}
+.foreignModal .foreignTable .ant-calendar-picker{width:100%;}
+.foreignModal .foreignTable .ant-select{width:100%;}
+.foreignModal .foreignTable .ant-select-selection--single{border:0;}
+
+
+
+/* 三实人口表格样式 */
+.c-table table{table-layout: fixed;}
+.c-table table a{color:#108ee9;}
+.c-table table th,.c-table table td{text-align: center;}
+.c-table th:nth-child(1),.c-table td:nth-child(1){width: 60px;}
+.c-table th:nth-child(2),.c-table td:nth-child(2){width: 8%;}
+.c-table th:nth-child(3),.c-table td:nth-child(3){width: 4%;}
+.c-table th:nth-child(4),.c-table td:nth-child(4){width: 4%;}
+.c-table th:nth-child(5),.c-table td:nth-child(5){width: 12%;text-align: left;}
+.c-table th:nth-child(6),.c-table td:nth-child(6){width: 5%;text-align: left;}
+.c-table th:nth-child(7),.c-table td:nth-child(7){width: 5%;}
+.c-table th:nth-child(8),.c-table td:nth-child(8){width: 14%;}
+.c-table th:nth-child(9),.c-table td:nth-child(9){width: 8%;}
+.c-table th:nth-child(10),.c-table td:nth-child(10){width: 14%;}
+.c-table th:nth-child(11),.c-table td:nth-child(11){width: 10%;}
+.c-table th:nth-child(12),.c-table td:nth-child(12){width: 8%;}
+.c-table th:nth-child(13),.c-table td:nth-child(13){width: 70px;}
+
+.c-table .ant-pagination{position: fixed;}
+
+.hide{display:none;}
+.show-block{display:block;}

@@ -1,0 +1,19 @@
+/*警员详情样式
+*作者：zhoumy
+*/
+.police-detail-content{
+	margin-top: 10px;
+	flex: 1;
+	display: flex
+}
+.police-photo{
+	width: 138px;
+	height: 181px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 20px;
+}
+.peopleInfo {
+	display: inline-block;
+	flex: 1;
+}

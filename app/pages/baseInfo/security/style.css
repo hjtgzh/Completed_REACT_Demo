@@ -1,0 +1,62 @@
+.table-review-trf{
+	margin: 0 2% 10px;
+	width: 96%;
+	table-layout: auto;
+}
+.table-review-trf tr td:nth-child(1){
+	width: 80px;
+}
+.table-review-title-ytt{
+	font-size: 14px;
+	font-weight: bold;
+}
+.form-record-trf{
+	margin-bottom: 20px;
+}
+.table-record-trf{
+	margin-bottom: 10px;
+}
+.form-record-trf label{
+	padding: 0 15px;
+}
+.form-record-trf > span{
+	display: inline-block;
+}
+.form-record-trf button{
+	margin: 0 10px;
+}
+.record-box-trf{
+	border:1px solid #DDD;
+	margin-bottom: 10px;
+}
+.record-inline-trf,
+.record-main-trf{
+	padding: 10px;
+}
+.record-inline-trf > div{
+	display: inline-block;
+	padding-right: 10px;
+}
+.record-inline-trf > div:nth-child(8){
+	float: right;
+}
+
+
+.caseLog-main-trf > div{
+	padding: 10px 0;
+}
+.caseLog-main-trf em{
+	font-style: normal;
+}
+.caseLog-main-trf > div span{
+	padding-left: 10px;
+}
+
+
+/*
+create ytt
+*/
+
+textarea{
+	resize:none;
+}

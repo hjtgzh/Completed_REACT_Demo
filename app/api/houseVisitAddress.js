@@ -1,0 +1,15 @@
+import { ajax } from 'utils'
+
+export const addressInfo = ajax.fetchJSONByPost('/jcjw/room/getRoomInfoByRoomcode')
+export const saveScore = ajax.fetchJSONByPost('/jcjw/building/grade/updateBuildingGrade')
+export const addOwner = ajax.fetchJSONByPost('/jcjw/building/cqr/insertBuildingCQR')
+export const addQrcode = ajax.fetchJSONByPost('/jcjw/building/ewm/bindRoomBarcode')
+export const deletedOwner = ajax.fetchJSONByPost('/jcjw/building/cqr/deleteBuildingCQR')
+export const deletdQrcode = ajax.fetchJSONByPost('/jcjw/building/ewm/deleteRoomBarcode')
+export const searchHouseFile = ajax.fetchJSONByPost('/jcjw/dah/query')
+export const addHouseFile = ajax.fetchJSONByPost('/jcjw/room/insertRoomDah')
+export const searchHouldNum = ajax.fetchJSONByPost('/jcjw/hhxx/getHhByParam')
+export const addHouldNum = ajax.fetchJSONByPost('/jcjw/room/insertHh')
+export const deletdHouldNum = ajax.fetchJSONByPost('/jcjw/room/deleteHh')
+export const deletdHouseFile = ajax.fetchJSONByPost('/jcjw/room/deleteRoomDah')
+export const saveRoomSelect = ajax.fetchJSONByPost('/jcjw/room/updateRoomState')

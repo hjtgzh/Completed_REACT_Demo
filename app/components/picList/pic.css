@@ -1,0 +1,31 @@
+.address-title{height:30px;line-height: 30px; font-weight: bold;font-size: 14px}
+.absolute-bottom-right{position: fixed;bottom:7px;right: 10px;}
+.absolute-bottom-right .ant-btn{
+    border: 1px solid #164F86;
+    color: #164F86;
+    margin: 0 5px;}
+
+.c-pic{box-sizing: border-box;overflow:hidden;}
+
+.c-pic__table table{table-layout: fixed;}
+.c-pic__table table th{text-align: center;}
+.c-pic__table table td{text-align: center;}
+
+
+.c-pic__table .ant-select{width: 100%;}
+.c-pic__table .ant-form-item{margin-bottom: 0px;}
+.c-pic__table .has-error .ant-form-explain{display: none}
+
+.c-pic__table .c-table__div--operation span{padding: 0 8px;color: #51a7fa;cursor: pointer;}
+
+.c-thumb{overflow-x: hidden;}
+.c-thumb__div--container{box-sizing: border-box;padding: 10px;background-color: #dddee0;margin: 5px;display: block;}
+.c-thumb__img{width: 100%;max-height: 100%;}
+.c-thumb__div--userinfo{position: relative;}
+
+.ability-Icon{position: absolute;right: 0px;bottom: 10px;}
+.ability-Icon .anticon{background-color: red;color:#fff;border-radius: 20px;width: 20px;height: 20px;position: relative;font-size: 14px;cursor: pointer;margin: 0 5px;}
+.ability-Icon .anticon:before{left: 3px;position: absolute;top:2px;}
+
+
+/*.c-thumb .avatar-uploader-trigger{display: block;margin: 5px;box-sizing: border-box;line-height: 230px;font-size: 100px;border:10px dashed #dddee0;background-color: #fff;color:#dddee0;}*/

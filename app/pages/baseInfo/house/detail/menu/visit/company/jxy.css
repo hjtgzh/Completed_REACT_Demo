@@ -1,0 +1,20 @@
+.ul-list-jxy{
+    margin: 10px 8px;
+}
+.ul-list-jxy ul li{
+    height: 25px;
+    line-height: 25px;
+}
+
+.ul-list-jxy .color-red{
+    color: #d21b07;
+}
+.secrchmodal-jxy{
+    float: right;
+    margin-right: -30px;
+    margin-top: 0;
+    color: #108ee9;
+}
+.secrchmodal-jxy:hover{
+    color: #1476e9;
+}

@@ -1,0 +1,152 @@
+
+.peopleDetail-info{
+	overflow-y: auto;
+	flex: 1;
+	margin-top: 10px;
+}
+.peopleDetail-info .ant-form-item-label label:after{content: ""}
+.peopleInfo-nav-trf{
+	background: #fff;
+	line-height: 38px;
+	margin-bottom: 10px;
+}
+.peopleInfo-nav-trf p{
+	font-weight: bold;
+	padding-left: 15px;
+}
+.imgs-trf{
+	box-sizing: border-box;
+	float: left;
+	width: 138px;
+	height: 181px;
+	margin-right: 20px;
+    position: relative;
+}
+.imgs-trf img{
+    width: 136px;
+    height: 179px;
+    background: url(/images/photo_default.jpg);
+}
+.basic-trf{
+	box-sizing: border-box;
+	float: left;
+	width: calc(100% - 173px);
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+.basic-trf .ant-col-24{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.basic-trf .ant-form > .ant-row{
+	border:1px solid #d9d9d9;
+}
+.basic-trf .ant-row .ant-col-24{
+	border-bottom: 1px solid #d9d9d9;
+}
+.basic-trf .ant-row .ant-col-24:last-child{
+	border-bottom: 0;
+}
+.basic-trf .ant-row .ant-col-24 .ant-col-3{
+	border-right: 1px solid #d9d9d9;
+	background: #F7F9FD;
+}
+.basic-trf .ant-form-item{
+	margin-bottom: 0;
+}
+.peopleInfo-edit-trf{
+	padding: 10px 0;
+}
+.peopleInfo-edit-trf .ant-form-item {
+    margin-bottom: 10px;
+}
+.peopleInfo-nav-trf {
+    background: #fff;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.peopleInfo-nav-trf p {
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+
+
+.basic-trf {
+    box-sizing: border-box;
+    float: left;
+    width: calc(100% - 173px);
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.basic-trf .ant-col-12 {
+    padding-left: 10px;
+}
+.basic-trf .ant-col-21 {
+    padding-left: 10px;
+}
+
+.basic-trf .ant-form > .ant-row {
+    border: 1px solid #d9d9d9;
+}
+
+.basic-trf .ant-row .ant-col-12 {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.basic-trf .ant-row .ant-col-12:last-child {
+    border-bottom: 0;
+}
+
+.basic-trf .ant-row .ant-col-12 .ant-col-6 {
+    border-right: 1px solid #d9d9d9;
+    background: #F7F9FD;
+    text-align:right;
+    padding-right: 10px;
+}
+.basic-trf .ant-row .ant-col-12 .ant-col-6 .ant-form-item-label label:after{
+    content: "";
+}
+.basic-trf .ant-form-item {
+    margin-bottom: 0;
+}
+
+.peopleInfo-edit-trf {
+    padding: 10px 0;
+}
+
+.peopleInfo-edit-trf .ant-form-item {
+    margin-bottom: 10px;
+}
+
+.basic-trf .leftBorder {
+    border-left: 1px solid #d9d9d9;
+}
+.imgs-trf .picBtn{
+    position: absolute;
+    top: 207px;
+}
+.imgs-trf .picBtn .rightBtn{
+    margin-left: 10px;
+}
+.trf-scroll{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.trf-scroll .ant-table-placeholder{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.basic-trf .leftBorder span{
+    padding-left: 5px;
+}
+
+.basic-trf .ant-row{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

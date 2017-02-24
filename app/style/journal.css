@@ -1,0 +1,63 @@
+.visitlog-tj{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.visitlogList {
+    padding-right: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #F2F3F8;
+    margin-bottom: 50px;
+    flex: 1;
+}
+.visitlog-tj .ability-button{
+    padding-right: 10px;
+}
+.visitlogList ul {
+    margin: 15px 0px 0px 15px;
+}
+.visitlogList li{
+    padding: 0 0 48px 0;
+}
+.visitlogList li .ant-timeline-item-head-custom{
+    left: -6px;
+    padding: 0px;
+    background: none;
+}
+.visitlogList .text-box em {
+    font-style: normal;
+    color: #f2ad72;
+    margin:0px 20px;
+}
+.visitlogList .contentLog{
+    padding: 10px;
+}
+.visitlogList .text-box .userName,.gxdwname {
+    font-style: normal;
+    color: #3e88cf;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.visitlogList .text-box{
+    margin-left:20px;
+}
+.visitlogList .circle-log{
+    position: relative;
+    width: 19px;
+    height: 19px;
+    border-radius: 24px;
+    background: #cecfd0;
+}
+
+
+.circle-log span{
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 10px;
+    background: rgba(193, 20, 45, 0.51);
+    width: 9px;
+    height: 9px;
+}

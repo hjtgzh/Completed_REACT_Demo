@@ -1,0 +1,17 @@
+.fixfooterapppop-jxy{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*width: 100%;*/
+    padding: 10px 0;
+    background: #fff;
+}
+.apppop-table .ant-pagination {
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*bottom: -6px;*/
+}
+
+.relative{
+    position: relative;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="utf-8">
+    <title>宿迁市</title>
+</head>
+<body>
+  <div class="root" id="root"></div>
+  <script>
+    window.$GLOBALCONFIG = {};
+    +function(global){
+        // 本地开发打开的路径以及端口
+        global.$ctx = "http://localhost:3000";
+        // global.$ctx = "http://10.118.133.83:8088";
+        // global.$ctx = "http://10.118.164.206:8080";
+        // global.$ctx = "http://10.38.16.11:8090";
+        global.tabCache = {};
+        // 系统一二级菜单
+        global.NAVIGATION = [
+          /*{
+              "id":600000100,
+              "name":"基础信息",
+              "url":"",
+              "children":[
+                  { "id":600000101, "name":"实有房屋", "url":"house" },
+                  { "id":600000102, "name":"实有人口", "url":"pop" },
+                  { "id":600000103, "name":"实有单位", "url":"group" },
+                  { "id":600000104, "name":"治安情况", "url":"security" },
+                  { "id":600000105, "name":"线索记录", "url":"cue" },
+                  { "id":600000106, "name":"物品管理", "url":"goods" },
+                  // { "id":600000107, "name":"统计", "url":"count" }
+              ]
+          },
+          {
+              "id":600000001,
+              "name":"勤务管理",
+              "url":"",
+              "children":[
+                  { "id":600000002, "name":"实时警力", "url":"police" },
+                  { "id":600000003, "name":"工作任务", "url":"task" },
+                  // { "id":600000004, "name":"工作详情", "url":"work" },
+                  { "id":600000005, "name":"二维码管理", "url":"qrcode" },
+                  { "id":600000006, "name":"社会申报", "url":"declare" },
+                  { "id":600000007, "name":"档案号管理", "url":"file" },
+                  { "id":600000008, "name":"户号管理", "url":"household" }
+              ]
+          },
+          {
+              "id":600000200,
+              "name":"基础应用",
+              "url":"",
+              "children":[
+                  // { "id":600000201, "name":"实有房屋", "url":"apphouse" },
+                  { "id":600000202, "name":"人口统计", "url":"apppop" }
+              ]
+          },
+          {
+              "id":600000300,
+              "name":"系统",
+              "url":"",
+              "children":[
+                  // { "id":600000301, "name":"数据卡片", "url":"card" },
+                  { "id":600000302, "name":"系统设置", "url":"set" },
+              ]
+          },*/
+        ];
+
+    }(window.$GLOBALCONFIG);
+  </script>
+</body>
+</html>

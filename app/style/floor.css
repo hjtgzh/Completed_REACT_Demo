@@ -1,0 +1,134 @@
+.floorContent .ant-tabs-tabpane{
+	background: #f2f3f8;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 50px;
+    overflow-y: auto;
+    margin-top: 3px;
+}
+.roomList{
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+.floorContent .roomList li{
+	position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5px;
+    margin:0 10px 10px 0;
+    text-align: center;
+    background: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.floorContent .roomList .floor{
+    background: #D7D8D8;
+}
+.floorContent .roomList .delFloor,.delRoom{
+	display:none;
+    position: absolute;
+    width: 12px;
+    line-height: 12px;
+    height: 12px;
+    bottom: 0px;
+    right: 0px;
+}
+.floorContent .roomList .addFloor{
+    position: absolute;
+    width: 12px;
+    line-height: 12px;
+    height: 12px;
+    top: 0px;
+    left: 0px;
+    color:#51a7fa;
+    cursor: pointer;
+}
+.floorContent .roomList li:hover .delFloor{
+	display:inline-block;
+	color:#51a7fa;
+	cursor: pointer;
+}
+.floorContent .roomList li:hover .delRoom{
+	display:inline-block;
+	color:#51a7fa;
+	cursor: pointer;
+}
+.floorContent .btns{
+	position:fixed;
+	bottom:8px;
+	width:100%;
+}
+
+.floorContent .btns .btn-left{
+	float:left;
+	margin-left: 15px;
+}
+.floorContent .btns .btn-right{
+	float:right;
+	margin-right: 15px;
+}
+.floor-ability-button{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.floorContent .list-tabs .ant-tabs-tabpane-active[aria-hidden="false"]{
+    display: flex;
+    flex-direction: column;
+}
+.add-iconStyle .ant-tabs-extra-content{
+    margin-right: 10px;
+    padding-top: 3px;
+
+}
+
+.add-floor-info{
+    width: 100%;
+    table-layout: auto;
+}
+.add-floor-info .ant-select{
+    width: 100%;
+}
+.add-floor-info tr td{
+    padding: 7px 5px;
+}
+.add-floor-info .jfTitle{
+    width: 154px;
+    text-align: right;
+}
+.add-floor-info .floor-trbg{
+    font-weight: bold;
+    font-size: 14px;
+    background:#F0F0F0 ;
+}
+.add-floor-info .number_iput{
+    width: 220px;
+    float: left;
+    margin: -2px 10px;
+    text-align: center;
+}
+.add-floor-info .title-name{
+    width: 292px;
+}
+
+.add-floor-info .jfMinus,.add-floor-info .jfPlus{
+    display: block;
+    float: left;
+    width: 26px;
+    height: 26px;
+    background: #108ee9;
+    margin-left: 10px;
+    padding-top: 2px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.add-floor-info .jfPlus{
+    margin-left: 0;
+}
+.add-floor-info .jfMinus:hover,.add-floor-info .jfPlus:hover{
+    background:#2FA7FD;
+}

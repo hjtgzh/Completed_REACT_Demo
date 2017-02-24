@@ -1,0 +1,72 @@
+/*-------------- jxy ------------*/
+.group-jxy {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 60px;
+}
+
+.group-jxy table {
+    border-collapse: collapse;
+    border: solid #d6d6d6 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.group-jxy table tbody tr td {
+    border: dashed #DDDFDF 1px;
+    height: 30px;
+    vertical-align: middle;
+    color: #53585F;
+    padding: 0;
+    text-align: center;
+    min-width: 90px;
+}
+
+.group-jxy table thead tr th {
+    border-right: solid #d6d6d6 1px;
+    border-bottom: solid #d6d6d6 1px;
+    font-weight: bold;
+    color: #333;
+    padding: 0 3px;
+    background: #f8f9fd;
+    text-align: center;
+    height: 30px;
+}
+
+.group-jxy .ant-select {
+    display: block;
+}
+.group-jxy .ant-input,
+.group-jxy .ant-select-selection {
+    border: none;
+}
+
+.checkboxCode-jxy{
+    width: 100px;
+    display: inline-block;
+}
+
+.checklist-jxy .ant-checkbox-wrapper{
+    display: block;
+    margin: 3px 0;
+}
+.footerGroup-jxy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.footerGroup-jxy button {
+    margin-right:10px;
+}
+.intelligentBox{
+    min-height: 200px;
+    max-height: 300px;
+    border: 1px solid #d6d6d6;
+    margin-top: 10px;
+}
+
+/*-------------- /jxy ------------*/

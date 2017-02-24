@@ -1,0 +1,12 @@
+.btn-detail-jxy{
+    float: right;
+    color: #51a7fa;
+}
+.btn-detail-jxy:hover,
+.btn-detail-jxy:visited
+{
+    color: #51a7fa;
+}
+.maTop-jxy{
+    margin-top: 10px;
+}
